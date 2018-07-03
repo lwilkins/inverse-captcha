@@ -1,0 +1,22 @@
+{
+  "name": "inverse-capture",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./lib/index.js",
+    "test": "eslint ./**/*.js && jest",
+    "test:watch": "jest --watch --notify"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "prettier": "^1.11.1",
+    "jest": "^22.4.3"
+  },
+  "dependencies": {
+  }
+}
