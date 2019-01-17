@@ -17,6 +17,9 @@
     "prettier": "^1.11.1",
     "jest": "^22.4.3"
   },
-  "dependencies": {
+  "dependencies": {},
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
   }
 }
