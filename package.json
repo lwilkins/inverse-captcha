@@ -4,19 +4,19 @@
   "main": "lib/index.js",
   "license": "MIT",
   "scripts": {
+    "lint": "eslint lib",
     "start": "node ./lib/index.js",
-    "test": "eslint ./**/*.js && jest",
+    "test": "yarn lint && jest",
     "test:watch": "jest --watch --notify"
   },
   "devDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-config-prettier": "^2.9.0",
+    "eslint": "^7.10.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.12.0",
     "eslint-plugin-import": "^2.10.0",
-    "eslint-plugin-prettier": "^2.6.0",
-    "prettier": "^1.11.1",
-    "jest": "^22.4.3"
+    "eslint-plugin-prettier": "^3.1.4",
+    "jest": "^26.4.2",
+    "prettier": "^2.1.2"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
